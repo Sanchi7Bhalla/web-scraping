@@ -27,7 +27,7 @@ search = "https://www.linkedin.com/search/results/people/?facetCurrentCompany=%5
 browser.get(search)
 time.sleep(3)
 browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-current_url = 'url_placeholder' # this is a placeholder for the URL check
+current_url = 'http_link' # this is a placeholder for the URL check
 
 # Create empty dataframe
 df = pd.DataFrame(columns = ['name', 'title', 'location', 'profile'])
